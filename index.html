@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class = "header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">Mauricio Mazo</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+                </svg>
+              </button>
+
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+
+
+    <section id="inicio" class="home">
+        <article class="hero-image"style="--hero-image: url('assets/web.jpg'); --hero-attachment: fixed;"><!-- scroll para movimiento junto con la imagen  -->
+            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
+                <div class="hero-image-content">
+                    <h2 class="hero-image-title" style="--hero-text-color: var(--white-color);">
+                        Bienvenid@s <br> a mi sitio
+                    </h2>
+                    <a href="#contacto" class="btn">CONTÁCTAME</a>
+                </div>
+            </aside>
+        </article>
+    </section>
+
+
+    <section id="acerca" class="about section container full-lg-screen">
+        <article class="text-lg-justify">
+            <aside class="text-center text-lg-center">
+                <h1>Mauricio Mazo</h1>
+                <h5>Ingeniero De Sistemas <br> & <br> Formador De Robótica</h5>
+            </aside>
+            <p>Ingeniero de sistemas, graduado de la fundación universitaria uniclaretiana en el año 2021 en la ciudad de Quibdó.</p>
+            <p>Formé parte del programa DALE en el año 2020 un programa donde obtuve muchos conocimientos desde el manejo de mis emociones, liderazgo e ideación y creación de una marca o producto</p>
+            <p>laboro en el centro de innovación del pacifico donde me desempeño como formador en la escuela de robótica del choco ya hace poco más de un año y medio donde a través de la ciencia, la tecnología y la innovación se empodera a los niños, niñas y jóvenes del territorio pacifico con el fin de disminuir la brecha digital que enmarca a estos territorios y también para potencializar las habilidades de estos NNA a través de la metodologia <i>STEM</i>. </p>
+            <div class="text-center text-lg-left ">
+              <a class="btn" href="https://drive.google.com/file/d/1tdreLNiYLA-gYgMbHdb27HiqC4Cmd28X/view?usp=sharing" target="-blank" rel="noopener">DESCARGA MI CV</a>  
+            </div>
+        </article>
+        <article>
+            <img class="gray-scale" src="assets/mauricio.jpg" alt="mauricio">
+        </article>
+        <article>
+            <h2 class="text-center text-lg-left ">Mis Habilidades</h2>
+            <div class="progress">
+                <p>
+                    <b>Robótica educativa</b>
+                    <b>90%</b>
+                </p>
+                <progress value="90"min="0"max="100"></progress>
+            </div>
+
+            <div class="progress">
+                <p>
+                    <b>Creacion de juegos con <i>Scratch</i></b>
+                    <b>75%</b>
+                </p>
+                <progress value="75"min="0"max="100"></progress>
+            </div>
+
+            <div class="progress">
+                <p>
+                    <b>Diseño <i>3D</i></b>
+                    <b>75%</b>
+                </p>
+                <progress value="75"min="0"max="100"></progress>
+            </div>
+
+            <div class="progress">
+                <p>
+                    <b>Diseño <i>Web</i></b>
+                    <b>60%</b>
+                </p>
+                <progress value="60"min="0"max="100"></progress>
+            </div>
+
+
+            <div class="progress">
+                <p>
+                    <b>Diseño <i>Web Frontend</i></b>
+                    <b>60%</b>
+                </p>
+                <progress value="60"min="0"max="100"></progress>
+            </div>
+
+        </article>
+    </section>
+    
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">¿Qué te ofrezco?</h2>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z"/><path d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z"/>
+                </svg>
+                <h3>Programacion <i>Web</i></h3>
+                <p>Desarrollo sitios y aplicaciones para plataformas Web. Te ayudo a construir tu proyecto de principio a fin: <i>Frontend</i>, <i>Backend</i> y Base de Datos.</p>
+            </article>
+            <article class="service-card">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 512.000000 512.000000"
+                preserveAspectRatio="xMidYMid meet">
+               <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+               fill="#000000" stroke="none">
+               <path d="M2556 4320 l-479 -159 -106 31 c-58 17 -107 32 -109 33 -2 2 8 14 22
+               28 34 34 34 80 1 112 -33 34 -58 31 -215 -23 -175 -61 -171 -52 -106 -247 50
+               -153 65 -175 119 -175 35 0 77 40 77 73 0 14 -7 44 -15 67 -8 24 -14 45 -12
+               46 2 2 62 -16 133 -40 l129 -43 3 -291 2 -292 -576 0 c-424 0 -588 -3 -618
+               -12 -55 -16 -138 -99 -154 -154 -17 -59 -17 -1929 0 -1988 16 -55 99 -138 154
+               -154 30 -9 177 -12 538 -12 l496 0 0 -200 0 -200 -95 0 c-88 0 -98 -2 -120
+               -25 -33 -32 -33 -78 0 -110 l24 -25 591 0 591 0 24 25 c33 32 33 78 0 110 -22
+               23 -32 25 -120 25 l-95 0 0 200 0 200 498 0 c572 0 562 -1 635 80 24 26 49 66
+               55 88 9 29 12 237 12 779 l0 740 103 42 c56 23 110 52 119 64 16 20 18 66 18
+               568 l0 546 83 32 c45 18 88 35 94 38 10 4 9 -6 -2 -37 -21 -60 -19 -87 10
+               -115 31 -32 76 -33 109 -2 24 22 106 248 106 293 0 48 -35 71 -180 119 -109
+               35 -144 43 -163 36 -30 -12 -57 -48 -57 -77 0 -30 37 -74 63 -74 12 0 17 -4
+               12 -8 -16 -14 -135 -62 -153 -62 -9 0 -222 67 -472 149 -250 82 -464 152 -475
+               155 -12 3 -208 -57 -499 -154z m836 -122 c186 -62 338 -115 338 -119 0 -3
+               -155 -58 -345 -122 l-345 -116 -345 117 c-190 64 -345 119 -345 122 0 7 660
+               228 685 229 11 1 172 -50 357 -111z m-434 -1006 l2 -511 -107 45 c-60 24 -240
+               100 -400 167 l-293 122 0 477 0 476 398 -132 397 -133 3 -511z m962 301 l0
+               -478 -382 -160 c-210 -88 -390 -163 -400 -167 -18 -7 -18 11 -16 504 l3 511
+               395 133 c217 73 396 133 398 133 1 1 2 -214 2 -476z m-1920 -378 c0 -123 4
+               -173 14 -193 12 -23 79 -54 480 -221 l466 -194 0 -114 0 -114 -26 20 c-56 44
+               -134 8 -134 -61 0 -27 15 -47 103 -135 138 -138 136 -138 274 0 88 88 103 108
+               103 135 0 69 -78 105 -134 61 l-26 -20 0 113 0 114 153 64 c83 35 209 87 280
+               116 l127 53 0 -489 0 -490 -1440 0 -1440 0 0 735 0 736 25 24 24 25 576 0 575
+               0 0 -165z m1680 -1650 c0 -131 -1 -137 -25 -160 l-24 -25 -1391 0 -1391 0 -24
+               25 c-24 23 -25 29 -25 160 l0 135 1440 0 1440 0 0 -135z m-1200 -545 l0 -200
+               -240 0 -240 0 0 200 0 200 240 0 240 0 0 -200z"/>
+               <path d="M984 3095 l-24 -25 2 -556 3 -556 24 -19 c22 -18 48 -19 653 -19
+               l629 0 24 25 c33 32 33 78 0 110 l-24 25 -443 1 -443 0 155 79 155 79 168 0
+               c165 1 168 1 192 26 33 32 33 78 0 110 -23 24 -29 25 -160 25 l-135 0 0 171
+               c0 99 -4 178 -10 190 -14 24 -680 359 -715 359 -14 0 -37 -11 -51 -25z m296
+               -575 l0 -310 -80 -40 -80 -40 0 390 0 390 80 -40 80 -40 0 -310z m320 0 l0
+               -150 -80 -40 -80 -40 0 230 0 230 80 -40 80 -40 0 -150z"/>
+               <path d="M2105 1495 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 23 -24 31
+               -25 135 -25 104 0 112 1 135 25 16 15 25 36 25 55 0 19 -9 40 -25 55 -23 24
+               -31 25 -135 25 -104 0 -112 -1 -135 -25z"/>
+               <path d="M1465 375 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 l24 -25 751
+               0 751 0 24 25 c33 32 33 78 0 110 l-24 25 -751 0 -751 0 -24 -25z"/>
+               <path d="M3225 375 c-16 -15 -25 -36 -25 -55 0 -19 9 -40 25 -55 23 -24 31
+               -25 135 -25 104 0 112 1 135 25 16 15 25 36 25 55 0 19 -9 40 -25 55 -23 24
+               -31 25 -135 25 -104 0 -112 -1 -135 -25z"/>
+               </g>
+               </svg>
+               
+                <h3>Diseño <i>3D</i></h3>
+                <p></p>
+            </article>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolios</h2>
+    </section>
+    <section id="testimonios" class="testimonials">
+        <h2>Testimonios</h2>
+    </section>
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+    </section>
+    <footer class="footer">
+        <small>Sitio diseñado por <a href="https://www.linkedin.com/in/mauricio-fonnegra-mazo-598681175" target="_blank" rel="noopener">@Mauricio Mazo</a>
+        </small>
+    </footer>
+   
+    <script src="script.js"></script>
+
+
+
+
+     
+    
+</body>
+
+
+
+</html>
